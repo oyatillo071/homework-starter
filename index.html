@@ -14,31 +14,293 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-    <form action="buttons">
-        <input type="button" value="Sign up">
-        <input type="button" value="Log in">
-    </form>
+    <header class="container header__contaner display__flex">
+        <a class="logo" href="#">Exclusive</a>
+        <nav>
+            <ul class="display__flex">
+                <li class="nav__items nav__items1"><a href="#">Home</a></li>
+                <li class="nav__items nav__items2"><a href="#">Contact</a></li>
+                <li class="nav__items nav__items3"><a href="#">About</a></li>
+                <li class="nav__items nav__items4"><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
 
-    <form action="send email">
-        <input type="email" name="email" id="email" placeholder="Enter your email addres">
-        <button type="button">Send</button>
-    </form>
-    <p class=" animated-border">allowTrailingCommas</p>
-    <div class=""></div>
-    <form action="send email">
-        <input type="email" name="email" id="email" placeholder="Enter your email addres">
-        <input class="button" type="button" value="Send">
-    </form>
-    <div class="hover-effect">
-        <a href="#">dasaddddd</a>
-    </div>
 
-    <div class="spinner"></div>
+        <form action="header__buttons" class="display__flex">
 
-=======
- 
->>>>>>> 171a5dc2d16696fb41104d0f05e38cc9f79bdf1c
+
+                    <div class="search__place display__flex">
+                        <input type="search" class="search__text" placeholder="What are you looking for?">
+                        <input type="image" class="search__img" src="./images/search-icon.svg" width="20" height="18" alt="search icon">
+                    </div>
+
+
+            <div class="display__flex nav__bar">
+                <a href="#"><img src="/images/like-icon.svg" width="28" height="28" alt="like icon"></a>
+                <a href="#"><img src="/images/cart-icon.svg" width="32" height="32" alt="cart icon"></a>
+                <a href="#"><img src="/images/user-icon.svg" width="32" height="32" alt="user icon"></a>
+            </div>
+        </form>
+
+
+    </header>
+
+    <div class="container border__bottom"></div>
+
+    <section class="container wishlist__container">
+        <div class="display__flex">
+            <h4 class="wishlist__title">Wishlist (4)</h4>
+            <input class="wishlist__button" type="button" value="Move All To Bag">
+        </div>
+
+        <div class="wishlist__cards">
+
+            <div class="wishlist__card">
+
+                <div class="wishlist__card--items wishlist__card--items--sale">
+                    <img class="wishlist__card--img wishlist__card--img--bag--padding" src="./images/gucci-bag.png"
+                        width="178" height="129" alt="gucci Bag">
+
+                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
+                            alt="Cart">Add To Card</a>
+                </div>
+                <h4>Gucci duffle bag</h4>
+                <h5 class="card__price">$960 <span class="card__price--unserted">$1160</span></h5>
+            </div>
+
+
+
+            <div class="wishlist__card">
+
+                <div class="wishlist__card--items">
+                    <img class="wishlist__card--img wishlist__card--img--cooler--padding " src="./images/pc-cooler.png"
+                        width="191" height="95" alt="Rgba PC Cooler">
+
+                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
+                            alt="Cart">Add To Card</a>
+                </div>
+                <h4>RGB liquid CPU Cooler</h4>
+                <h5 class="card__price">$1960</h5>
+            </div>
+
+
+
+            <div class="wishlist__card">
+
+                <div class="wishlist__card--items">
+                    <img class="wishlist__card--img wishlist__card--img--gamepad--padding" src="./images/game-pad.png"
+                        width="178" height="150" alt="Game Pad">
+
+                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
+                            alt="Cart">Add To Card</a>
+                </div>
+                <h4>GP11 Shooter USB Gamepad</h4>
+                <h5 class="card__price">$550</h5>
+            </div>
+
+            <div class="wishlist__card">
+
+                <div class="wishlist__card--items">
+                    <img class="wishlist__card--img wishlist__card--img--jacket--padding"
+                        src="./images/black-jacket.png" width="182" height="176" alt="Quilited Satin jacked">
+
+                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
+                            alt="Cart">Add To Card</a>
+                </div>
+                <h4>Quilited Satin Jacket</h4>
+                <h5 class="card__price">$750</h5>
+            </div>
+        </div>
+
+
+
+
+        <div class="margin"></div>
+
+
+
+
+
+
+
+
+        <div class="display__flex just__header">
+            <h4 class="just__title just__header--before">Just For You</h4>
+            <input class="wishlist__button wishlist__button--size" type="button" value="See All">
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+
+    <section class="container wishlist__container">
+
+        <div class="wishlist__cards display__flex">
+
+            <div class="wishlist__card">
+
+                <div class="wishlist__card--items--just wishlist__card--items--sale ">
+                    <img class="wishlist__card--img laptop__img" src="./images/laptop.png" width="158" height="166"
+                        alt="laptop">
+
+                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
+                            alt="Cart">Add To Card</a>
+                </div>
+                <h4>ASUS FHD Gaming Laptop</h4>
+                <h5 class="card__price">$960 <span class="card__price--unserted">$1160</span></h5>
+                <div class="display__flex stars">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <p>(65)</p>
+                </div>
+            </div>
+
+            <div class="wishlist__card">
+
+                <div class="wishlist__card--items--just">
+                    <img class="wishlist__card--img monitor__img" src="./images/msi-display.png" width="170"
+                        height="129" alt="MSI MONITOR">
+
+                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
+                            alt="Cart">Add To Card</a>
+                </div>
+                <br>
+                <h4 class="margin__top__card">IPS LCD Gaming Monitor</h4>
+                <h5 class="card__price">$1160</h5>
+                <div class="display__flex stars">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <p>(65)</p>
+                </div>
+
+            </div>
+            <div class="wishlist__card">
+
+                <div class=" wishlist__card--items--new wishlist__card--items--just ">
+                    <img class="wishlist__card--img red__gamepad__img" src="./images/red-game-pad.png" width="172"
+                        height="152" alt="Red Gamepad">
+
+                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
+                            alt="Cart">Add To Card</a>
+                </div>
+                <div>
+                    <h4>HAVIT HV-G92 Gameoad</h4>
+                    <h5 class="card__price">$560</h5>
+                    <div class="display__flex stars">
+                        <img src="./images/star.svg" width="20" height="20" alt="star">
+                        <img src="./images/star.svg" width="20" height="20" alt="star">
+                        <img src="./images/star.svg" width="20" height="20" alt="star">
+                        <img src="./images/star.svg" width="20" height="20" alt="star">
+                        <img src="./images/star.svg" width="20" height="20" alt="star">
+                        <p>(65)</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="wishlist__card">
+
+                <div class="wishlist__card--items--just  ">
+                    <img class="wishlist__card--img keyboard__img" src="./images/keyboard.png" width="191" height="101"
+                        alt="keyboard photo">
+
+                    <a class="wishlist__card--add" href="#"><img src="./images/white-cart.svg" width="24" height="24"
+                            alt="Cart">Add To Card</a>
+                </div>
+                <br>
+                <h4>AK-900 Wired Keyboard</h4>
+                <h5 class="card__price">$200</h5>
+                <div class="display__flex stars">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <img src="./images/star.svg" width="20" height="20" alt="star">
+                    <p>(65)</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="margin-bottom"></div>
+    </section>
+
+    <footer>
+        <div class="container footer__container">
+
+
+
+            <ul class="footer__logo-section">
+                <a class="logo" href="#">Exclusive</a>   
+                    
+                <li class="list-items list__items1"><a href="#"><br>Subscribe <br></a></li>
+                <li class="list-items list__items2"><a href="#">Get 10% of yor first order</a></li>
+
+                <form action="send email" class="footer__email display__flex">
+                    <input class="enter__email__input" type="email" name="email" id="email" placeholder="Enter your email">
+                    <input class="enter__email__img" type="image" src="./images/email-footer-send.svg" width="20" height="18" alt="send button">
+                </form>
+            </ul>
+            <ul>
+                <li class="list-items list__items1"><a href="#">Support</a></li>
+                <li class="list-items list__items2"><a href="#">111 Bijoy sarani,Dhaka,GH 1515, Bangladesh</a></li>
+                <li class="list-items list__items3"><a href="mailto:exclusive@gmail.com">exclusive@gmail.com</a></li>
+                <li class="list-items list__items4"><a href="tel:+88015-88888-9999">+88015-88888-9999</a></li>
+            </ul>
+            <ul>
+                <li class="list-items list__items1"><a href="#">Account</a></li>
+                <li class="list-items list__items2"><a href="#">My account</a></li>
+                <li class="list-items list__items3"><a href="#">Login / Register</a></li>
+                <li class="list-items list__items4"><a href="#">Cart</a></li>
+                <li class="list-items list__items5"><a href="#">Wishlist</a></li>
+                <li class="list-items list__items5"><a href="#">Shop</a></li>
+            </ul>
+
+            <ul class="list__item">
+                <li class="list-items list__items1"><a href="#">Quick Link</a></li>
+                <li class="list-items list__items2"><a href="#">Privacy Policy</a></li>
+                <li class="list-items list__items3"><a href="#">Terms Of Use</a></li>
+                <li class="list-items list__items4"><a href="#">FAQ</a></li>
+                <li class="list-items list__items5"><a href="#">Contact</a></li>
+            </ul>
+            <div class="download">
+                <a class="download-title" href="#">Download App</a>
+                <p class="download-disc" >Save $3 with App New User Only</p>
+                <div class="display__flex">
+                    <img class="qr__code" src="./images/qr-code.svg" width="76" height="76" alt="Qr Code">
+                    <div>
+
+                        <a class="download__link" href="#"><img src="./images/download-google-play.svg" width="104"
+                             height="30" alt="Google play logo"></a>
+                        <a  href="#"><img src="./images/download-appstore.svg" width="104" height="30" alt="App Story"></a>
+                    </div>
+                </div>
+                    <div class="display__flex footer__social__icons">
+                        <a href="#"><img src="./images/facebook-icon.svg" alt="facebook"></a>
+                        <a href="#"><img src="./images/twitter-footer.svg" alt="twitter"></a>
+                        <a href="#"><img src="./images/icon-instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="./images/Icon-Linkedin.svg" alt="linkedin"></a>
+                    </div>
+                
+            </div>
+
+        </div>
+        <div class="container">
+            <p style="color: rgb(255, 255, 255);opacity: 0.5; width: 311px; text-align: center; margin-left: 400px;">Copyright Rimel 2022.All right reserved</p>
+        </div>
+    </footer>
+
+    
 </body>
 
 </html>
